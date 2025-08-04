@@ -39,7 +39,7 @@ Sequential([
   Dense(128, activation='relu'),
   Dense(10)  # 10 output classes for digits 0–9
 ])
-
+```
 
 ### 3. 🧪 Compile & Train
 
