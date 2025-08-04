@@ -39,3 +39,17 @@ Sequential([
   Dense(128, activation='relu'),
   Dense(10)  # 10 output classes for digits 0–9
 ])
+
+
+### 3. 🧪 Compile & Train
+
+- Optimizer: `Adam`
+- Loss: `SparseCategoricalCrossentropy`
+- Metric: `SparseCategoricalAccuracy`
+
+### 4. 🔍 Evaluate & Visualize
+
+A `predictions()` function randomly samples digits from test data and shows:
+
+- The image
+- The predicted label vs. true label (color-coded)
